@@ -1,0 +1,33 @@
+<div class="cuerpo">
+  <div class="galeria">
+
+      <div *ngFor="let titulo of titulos" class="card">
+        <img src="{{titulo[1]}}" class="card-img-top" alt="{{titulo[1]}}">
+        <div class="card-body">
+          <h5 class="card-title">{{titulo[0]}}</h5>
+          <p class="card-text">{{titulo[4]}}</p>
+          <a routerLink="/{{titulo[0]}}" class="btn btn-primary">Ver mas</a>
+        </div>
+      </div>
+    </div>
+
+</div>
+<!-- <div class="galeria">
+
+    <div class="contenedor">
+      <ul>
+        <li *ngFor="let deducible of deducibles">
+          <div class="card" style="width: 80rem;">
+            <img src="../../assets/multimedia/img.jpg" class="card-img-top" alt="personas">
+            <div class="card-body">
+              <h5 class="card-title">{{deducible}}</h5>
+              <p class="card-text">Descripcion deducible!! <b>{{deducible}}</b></p>
+              <button (click)="informacion(deducible)" class="btn btn-info">Información</button>
+              <button (click)="borrarDeducible(deducible)" class="btn btn-warning">Borrar</button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+      
+  </div> -->

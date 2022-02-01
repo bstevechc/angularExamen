@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+section{
+    background-color: blanchedalmond;
+}
+
+.principal{
+    width: 100%;
+    height: auto;
+    padding: 2rem 4rem;
+}
+
+.contenedor{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imagenInfo{
+    display: flex;
+    align-content: center;
+    padding: 2rem;
+}
+
+.imagen{
+    width: 40%;
+}
+.info{
+    margin: auto 1rem;
+    padding: 0.5rem 1rem;
+    width: 60%;
+    text-align: justify;
+    font-size: 1.5rem;
+    background-color: rgba(121, 238, 222, 0.418);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+.horario{
+    width: 100%;
+    text-align: center;
+    height: auto;
+    font-size: 1.5rem;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.mapa,iframe{
+    width: 100%;
+    height: 20rem;
+}
+
+h2{
+    padding-bottom: 1rem;
+    font-family: 'Boogaloo', cursive;
+    font-size: 3vw;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.navbar {
+  background: #56CCF2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+li {
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(253, 253, 253, 0.55);
+}
+
+nav {
+  font-family: 'Righteous', cursive;
+}
+
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #808080;
+}
+
+.navbar-logo-centered .navbar-nav .nav-link {
+  padding: .5em 1em;
+}
